@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Boilerplate</title>
+
+    <!-- Imports -->
+    <script src="webcomponentsjs/webcomponents-lite.min.js"></script>
+
+    <link rel="text/css" href="main.css">
+    <link rel="import" href="elements.html">
+
+    <style is="custom-style" include="iron-flex iron-flex-alignment"></style>
+</head>
+
+<body unresolved class="fullbleed vertical layout">
+    <h1>Boilerplate</h1>
+</body>
+<paper-drawer-panel>
+    <paper-header-panel class="drawer" drawer fixed>
+
+        <!-- Drawer toolbar -->
+        <paper-toolbar class="main-nav tall">
+        </paper-toolbar>
+
+        <!-- Drawer content -->
+        <paper-menu>
+            <paper-icon-item>
+                <iron-icon icon="home" item-icon></iron-icon>
+                Home
+            </paper-icon-item>
+            <paper-icon-item>
+                <iron-icon icon="create" item-icon></iron-icon>
+                Blog
+            </paper-icon-item>
+            <paper-icon-item>
+                <iron-icon icon="shopping-cart" item-icon></iron-icon>
+                Shop
+            </paper-icon-item>
+
+        </paper-menu>
+    </paper-header-panel>
+    <paper-header-panel main>
+        <paper-toolbar class="main-nav tall">
+            <span class="middle title"><h1 class="site-title">Boilerplate</h1></span>
+        </paper-toolbar>
+
+        <div class="content">
+
+
+        </div>
+
+    </paper-header-panel>
+</paper-drawer-panel>
+
+</html>

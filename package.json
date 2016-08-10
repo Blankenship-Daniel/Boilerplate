@@ -1,0 +1,31 @@
+{
+  "name": "boilerplate",
+  "version": "1.0.0",
+  "description": "My own boilerplate ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Blankenship-Daniel/Boilerplate.git"
+  },
+  "keywords": [
+    "Boilerplate"
+  ],
+  "author": "Daniel Blankenship",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Blankenship-Daniel/Boilerplate/issues"
+  },
+  "homepage": "https://github.com/Blankenship-Daniel/Boilerplate#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2",
+    "node": "^0.0.0",
+    "path": "^0.12.7",
+    "pug": "^2.0.0-beta5"
+  },
+  "devDependencies": {}
+}
